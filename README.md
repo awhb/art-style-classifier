@@ -11,7 +11,6 @@ license: apache-2.0
 ---
 
 # Art Style Classifier
-
 Classify your art by a fine art movement/style! Especially for those new to fine art history (like myself). Do read up more on the art styles/movements by visiting [WikiArt](https://www.wikiart.org).
 
 
@@ -22,7 +21,14 @@ A [HuggingFace Space](https://huggingface.co/spaces/awhb/art-style-classifier) w
 Do checkout my process of fine-tuning the ConvNeXt-small-22k model using the fastai library on this [Kaggle Notebook](https://www.kaggle.com/code/awhangbin/wikiart-fine-art-styles-classification-w-fastai). Leave an upvote there if you enjoy! 
 
 
-# Project File Structure
+## Tools/Technologies Used
+- fastai library (and dependencies)
+- Gradio (version 3.50.2)
+- huggingface-cli for authentication/deployment
+- For Python libraries view requirements.txt
+
+
+## Project File Structure
 ```sh
 ├── LICENSE
 ├── README.md
@@ -37,7 +43,8 @@ Do checkout my process of fine-tuning the ConvNeXt-small-22k model using the fas
 └── requirements.txt
 ```
 
-# Instructions to deploy to HF spaces 
+
+## Instructions to deploy to HF spaces 
 (Note: Current local repo should already be tracking a HF remote space)
 
 ### Part 1: Init Git LFS
@@ -51,5 +58,4 @@ Do checkout my process of fine-tuning the ConvNeXt-small-22k model using the fas
 6. Run `git push`.
 
 ### Additional Note:
-This repository sets remotes of `origin` for the HuggingFace space and `upstream` for the GitHub repository. This behaviour can be modified, depending on where you begin initialising from.
-
+My local repository sets remotes of `origin` for the HuggingFace space and `upstream` for the GitHub repository. This behaviour can be modified, depending on where you begin initialising from.
