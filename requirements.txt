@@ -1,0 +1,4 @@
+nbdev
+fastai
+gradio==3.50.2
+timm 
