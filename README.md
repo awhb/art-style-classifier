@@ -12,14 +12,18 @@ license: apache-2.0
 
 # Art Style Classifier
 
-Classify your art by fine art style. 
+Classify your art by a fine art movement/style! Especially for those new to fine art history (like myself). Do read up more on the art styles/movements by visiting [WikiArt](https://www.wikiart.org).
 
-A [HuggingFace Space](https://huggingface.co/spaces/awhb/comic-medium-classifier), which is also embedded in a static webpage deployed on [GitHub Pages](https://awhb.github.io/comic-art-classifier/).
 
-Built using the FastAI library following the FastAI course. Training dataset of around 4000 images obtained from WikiArt by user `Sivar Azadi`, reposted as a
+A [HuggingFace Space](https://huggingface.co/spaces/awhb/art-style-classifier) which was built using the FastAI library following the FastAI course. Training dataset of around 4000 images obtained from WikiArt by user `Sivar Azadi`, reposted as a
 [Kaggle Dataset](https://www.kaggle.com/datasets/sivarazadi/wikiart-art-movementsstyles).
 
+
 Do checkout my process of fine-tuning the ConvNeXt-small-22k model using the fastai library on this [Kaggle Notebook](https://www.kaggle.com/code/awhangbin/wikiart-fine-art-styles-classification-w-fastai). Leave an upvote there if you enjoy! 
+
+
+# Project File Structure
+(Insert here)
 
 
 # Instructions to deploy to HF spaces 
@@ -34,3 +38,6 @@ Do checkout my process of fine-tuning the ConvNeXt-small-22k model using the fas
 
 ### Part 2: Deploy to HF-Spaces
 6. Run `git push`.
+
+### Additional Note:
+This repository sets remotes of `origin` for the HuggingFace space and `upstream` for the GitHub repository. This behaviour can be modified, depending on where you begin initialising from.
