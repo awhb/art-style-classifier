@@ -23,8 +23,19 @@ Do checkout my process of fine-tuning the ConvNeXt-small-22k model using the fas
 
 
 # Project File Structure
-(Insert here)
-
+```sh
+├── LICENSE
+├── README.md
+├── app.ipynb
+├── app.py
+├── images
+│   ├── baroque_art.jpg
+│   ├── realism_art.jpg
+│   ├── renaissance_art.jpg
+│   └── romanticism_art.jpg
+├── model.pkl
+└── requirements.txt
+```
 
 # Instructions to deploy to HF spaces 
 (Note: Current local repo should already be tracking a HF remote space)
@@ -41,3 +52,4 @@ Do checkout my process of fine-tuning the ConvNeXt-small-22k model using the fas
 
 ### Additional Note:
 This repository sets remotes of `origin` for the HuggingFace space and `upstream` for the GitHub repository. This behaviour can be modified, depending on where you begin initialising from.
+
