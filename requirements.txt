@@ -1,4 +1,4 @@
 nbdev
-fastai
+fastai==2.7.18
 gradio==3.50.2
 timm 
