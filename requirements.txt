@@ -1,5 +1,5 @@
-nbdev
+nbdev<3
 fastai==2.7.18
 gradio==3.50.2
-jinja2<3.1.3
-timm 
+timm<1
+
