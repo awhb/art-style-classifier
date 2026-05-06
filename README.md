@@ -4,8 +4,8 @@ emoji: 🏆
 colorFrom: yellow
 colorTo: gray
 sdk: gradio
-sdk_version: 3.50.2
-python_version: "3.10"
+sdk_version: 6.14.0
+python_version: 3.13
 app_file: app.py
 pinned: false
 license: apache-2.0
@@ -24,7 +24,7 @@ Do checkout my process of fine-tuning the ConvNeXt-small-22k model using the fas
 
 ## Tools/Technologies Used
 - fastai library (and dependencies)
-- Gradio (version 3.50.2)
+- Gradio (version 6.14.0)
 - huggingface-cli for authentication/deployment
 - For Python libraries view requirements.txt
 
