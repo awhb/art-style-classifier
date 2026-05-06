@@ -1,5 +1,5 @@
-nbdev<3
-fastai
+nbdev
+fastai<2.8.0
 gradio
 timm
 
