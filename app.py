@@ -25,4 +25,4 @@ label = gr.Label()
 examples = ['images/renaissance_art.jpg', 'images/baroque_art.jpg', 
             'images/romanticism_art.jpg', 'images/realism_art.jpg']
 intf = gr.Interface(fn=classify_image, inputs=image, outputs=label, examples=examples)
-intf.launch(inline=False)
+intf.launch(inline=False, share=True)
